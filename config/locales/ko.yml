@@ -1,16 +1,10 @@
 # Korean strings
 ko:
   default_mentionsl_info: 알림을 받을 기본 사용자를 나타내며, 쉼표로 구분 (e.g. @all, @here)
-  label_messenger_contact_created: "%{project_url} - *%{user}*님이 연락처(%{url})를 만들었습니다."
-  label_messenger_contact_updated: "%{project_url} - *%{user}*님이 연락처(%{url})를 수정했습니다."
-  label_messenger_db_entry_created: "%{project_url} - *%{user}*님이 데이터베이스 항목(%{url})을 만들었습니다."
-  label_messenger_db_entry_updated: "%{project_url} - *%{user}*님이 데이터베이스 항목(%{url})을 수정했습니다."
   label_messenger_default_not_visible: 보안 상의 이유로 기본값이 보여지지 않습니다.
   label_messenger_issue_created: "%{project_url} - *%{user}*님이 일감(%{url})을 만들었습니다."
   label_messenger_issue_updated: "%{project_url} - *%{user}*님이 일감(%{url})을 수정했습니다."
   label_messenger_outgoing_webhook: 웹훅 발신
-  label_messenger_password_created: "%{project_url} - *%{user}*님이 암호(%{url})를 만들었습니다."
-  label_messenger_password_updated: "%{project_url} - *%{user}*님이 암호(%{url})를 수정했습니다."
   label_messenger_project_text_field_info: 시스템 기본값을 사용하려면 빈 값으로 두세요.
   label_messenger_setting: 메신저 설정
   label_messenger_settings_disabled: 비활성화
@@ -34,10 +28,7 @@ ko:
   label_settings_post_wiki: 위키 추가
   label_settings_updated_include_description: 수정된 일감의 설명을 포함
   messenger_channel_info_html: '메시지를 보낼 채널들을 선택합니다. 쉼표로 구분하여 여러 채널을 선택할 수 있습니다.'
-  messenger_contacts_intro: 사전에 정의된 메신저 채널로 연락처의 변경 사항을 보냅니다.
-  messenger_db_intro: 사전에 정의된 메신저 채널로 데이터베이스의 변경 사항을 보냅니다.
   messenger_issue_intro: 사전에 정의된 메신저 채널로 일감의 변경 사항을 보냅니다.
-  messenger_passwords_intro: 사전에 정의된 메신저 채널로 암호의 변경 사항을 보냅니다.
   messenger_settings_intro: "레드마인에서 메신저로 메시지를 보내지 않으려면 플러그인 관리 페이지에서 메신저 URL을 빈 값으로 둡니다. 여기에서 설정을 하면 모든 레드마인 프로젝트의 메시지들이 여기에서 설정된 URL의 지정된 채널로 전달됩니다. 일부 프로젝트에 대해서만 전달되게 하고 싶다면 여기에선 URL을 빈 값으로 두고 각 프로젝트에서 설정합니다."
   messenger_settings_project_intro: "플러그인 관리 페이지에서 메신저 URL을 빈 값으로 두면 각 프로젝트 설정에서 메신저 URL을 설정함으로써 모든 프로젝트의 변경을 전역적으로 수신하지 않게 됩니다."
   messenger_url_info_html: '메신저 서비스에서 <a target="_blank" href="https://github.com/AlphaNodes/redmine_messenger#prepare-your-messenger-service">Incoming WebHook</a> URL을 만드세요. 전역 설정을 따르려면 빈 값으로 둡니다.'

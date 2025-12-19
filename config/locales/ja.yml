@@ -1,16 +1,10 @@
 # Japanese strings
 ja:
   default_mentionsl_info: Default people to notify, comma separated (e.g. @all, @here)
-  label_messenger_contact_created: "%{project_url} - コンタクト %{url} が *%{user}* によって作成されました。"
-  label_messenger_contact_updated: "%{project_url} - コンタクト %{url} が*%{user}* によって更新されました。"
-  label_messenger_db_entry_created: "%{project_url} - DB entry %{url} created by *%{user}*"
-  label_messenger_db_entry_updated: "%{project_url} - DB entry %{url} updated by *%{user}*"
   label_messenger_default_not_visible: デフォルトの設定はセキュリティ上の理由により表示されません。
   label_messenger_issue_created: "%{project_url} - チケット %{url} が *%{user}* によって作成されました。"
   label_messenger_issue_updated: "%{project_url} - チケット %{url} が *%{user}* によって更新されました。"
   label_messenger_outgoing_webhook: Outgoing Webhook
-  label_messenger_password_created: "%{project_url} - Password %{url} created by *%{user}*"
-  label_messenger_password_updated: "%{project_url} - Password %{url} updated by *%{user}*"
   label_messenger_project_text_field_info: デフォルトの設定を使う場合空欄にしてください。
   label_messenger_setting: メッセンジャーの設定
   label_messenger_settings_disabled: 無効
@@ -34,10 +28,7 @@ ja:
   label_settings_post_wiki: Wikiの作成
   label_settings_updated_include_description: チケット更新時に説明を含める
   messenger_channel_info_html: チャンネルを指定する必要があります。複数のチャンネルを指定する場合は,(カンマ)で区切って下さい。
-  messenger_contacts_intro: メッセンジャーに送信するチケットのイベントにチェックを入れて下さい。
-  messenger_db_intro: Activate the changes for DB that should be sent to the pre-defined Messenger channel.
   messenger_issue_intro: メッセンジャーに送信するチケットのイベントにチェックを入れて下さい。
-  messenger_passwords_intro: Activate the changes for Passwords that should be sent to the pre-defined Messenger channel.
   messenger_settings_intro: 管理画面でメッセンジャーのURLを指定した場合、全てのプロジェクトのデフォルトの送信先になります。プロジェクト毎の送信先を設定する場合はプロジェクトの設定画面で設定して下さい。
   messenger_settings_project_intro: メッセンジャーのURLを指定しない場合、管理者が指定したチャンネルにメッセージが送信されます。(管理者がチャンネルを指定していない場合は、空欄にすると機能は無効になります)
   messenger_url_info_html: 'メッセンジャー サービスで <a target="_blank" href="https://github.com/AlphaNodes/redmine_messenger#prepare-your-messenger-service">内向きのウェブフック</a>のURLを作成して下さい。プロジェクト毎に設定を変えたい場合は空欄として下さい。'

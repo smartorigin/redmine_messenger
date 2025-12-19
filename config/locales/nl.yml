@@ -1,16 +1,10 @@
 # Dutch strings
 nl:
   default_mentionsl_info: Standaard gebruikers om op de hoogte te stellen, gescheiden door een komma (e.g. @all, @here)
-  label_messenger_contact_created: "%{project_url} - Contact %{url} aangemaakt door *%{user}*"
-  label_messenger_contact_updated: "%{project_url} - Contact %{url} bijgewerkt door *%{user}*"
-  label_messenger_db_entry_created: "%{project_url} - DB entry %{url} aangemaakt door *%{user}*"
-  label_messenger_db_entry_updated: "%{project_url} - DB entry %{url} bijgewerkt door *%{user}*"
   label_messenger_default_not_visible: Standaardwaarde is niet zichtbaar vanwege beveiligingsredenen.
   label_messenger_issue_created: "%{project_url} - Issue %{url} aangemaakt door *%{user}*"
   label_messenger_issue_updated: "%{project_url} - Issue %{url} bijgewerkt door *%{user}*"
   label_messenger_outgoing_webhook: Uitgaande Webhook
-  label_messenger_password_created: "%{project_url} - Wachtwoord %{url} aangemaakt door *%{user}*"
-  label_messenger_password_updated: "%{project_url} - Wachtwoord %{url} bijgewerkt door *%{user}*"
   label_messenger_project_text_field_info: Laat leeg voor systeeminstelling.
   label_messenger_setting: Messenger Instellingen
   label_messenger_settings_disabled: Uitgeschakeld
@@ -35,10 +29,7 @@ nl:
   label_settings_post_wiki: Wiki toegevoegd?
   label_settings_updated_include_description: Beschrijving in bijwerking issue?
   messenger_channel_info_html: 'Hier kun je het kanaal opgeven dat gebruikt moet worden. Meerdere kanalen kunnen worden gebruikt, gescheiden door een komma'
-  messenger_contacts_intro: Activeer de bijwerkingen voor Issues die gestuurd moeten worden naar het van tevoren gekozen kanaal.
-  messenger_db_intro: Activeer de bijwerkingen van de database die gestuurd moeten worden naar het van tevoren gekozen kanaal.
   messenger_issue_intro: Activeer de bijwerkingen voor Issues die gestuurd moeten worden naar het van tevoren gekozen kanaal.
-  messenger_passwords_intro: Activeer de bijwerkingen voor wachtwoorden die gestuurd moeten worden naar het van tevoren gekozen kanaal.
   messenger_settings_intro: "Laat de Messenger-URL in het beheergedeelte leeg om geen berichten van Redmine naar de Messenger te sturen. Het maakt niet uit wat je hier nog meer hebt geconfigureerd. Als je berichten van alle Redmine-projecten naar de Messenger wilt sturen, vul dan de URL in. De berichten worden naar het specifieke kanaal gestuurd. Als je alleen door enkele van de projecten (niet alle) op de hoogte wilt worden gehouden, laat u de messenger-URL hier leeg en gebruik de specifieke projectconfiguratie."
   messenger_settings_project_intro: "Als u de Messenger-URL in het beheergedeelte leeg hebt gelaten voor het geval je niet wereldwijd op de hoogte wordt gesteld door alle projectwijzigingen, kun je de Messenger-URL configureren in de projectinstellingen."
   messenger_url_info_html: 'Genereer een <a target="_blank" href="https://github.com/AlphaNodes/redmine_messenger#prepare-your-messenger-service">Inkomende WebHook</a> URL van de messenger service. Laat het leeg als u alleen specifieke projecten wilt activeren met projectgebaseerde instellingen'

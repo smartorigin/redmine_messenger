@@ -1,16 +1,10 @@
 # English strings
 en:
   default_mentionsl_info: Default people to notify, comma separated (e.g. @all, @here)
-  label_messenger_contact_created: "%{project_url} - Contact %{url} created by *%{user}*"
-  label_messenger_contact_updated: "%{project_url} - Contact %{url} updated by *%{user}*"
-  label_messenger_db_entry_created: "%{project_url} - DB entry %{url} created by *%{user}*"
-  label_messenger_db_entry_updated: "%{project_url} - DB entry %{url} updated by *%{user}*"
   label_messenger_default_not_visible: Default setting is not visible for security reasons
   label_messenger_issue_created: "%{project_url} - Issue %{url} created by *%{user}*"
   label_messenger_issue_updated: "%{project_url} - Issue %{url} updated by *%{user}*"
   label_messenger_outgoing_webhook: Outgoing Webhook
-  label_messenger_password_created: "%{project_url} - Password %{url} created by *%{user}*"
-  label_messenger_password_updated: "%{project_url} - Password %{url} updated by *%{user}*"
   label_messenger_project_text_field_info: Leave it blank for system default.
   label_messenger_setting: Messenger Settings
   label_messenger_settings_disabled: Disabled
@@ -35,10 +29,7 @@ en:
   label_settings_post_wiki: Post Wiki added?
   label_settings_updated_include_description: Description in update issue?
   messenger_channel_info_html: 'Here you have to specify the channel, which should be used. You can define multiple channels, seperated by comma'
-  messenger_contacts_intro: Activate the changes for Issues that should be sent to the pre-defined Messenger channel.
-  messenger_db_intro: Activate the changes for DB that should be sent to the pre-defined Messenger channel.
   messenger_issue_intro: Activate the changes for Issues that should be sent to the pre-defined Messenger channel.
-  messenger_passwords_intro: Activate the changes for Passwords that should be sent to the pre-defined Messenger channel.
   messenger_settings_intro: "Leave the Messenger URL in the administration area empty in order to send no messages from Redmine to the Messenger. No matter what else you have configured here. In case you wish to send messages of all Redmine projects to the Messenger fill out the URL. The messages will be sent to the specific channel. If you want only to be notified by some of the projects (not all) leave the messenger URL here blank and go to the specific project configuration."
   messenger_settings_project_intro: "If you left empty the Messenger URL in the administration area in case to be not globally notified by all project changes you can configure your Messenger URL in the project settings."
   messenger_url_info_html: 'Generate an <a target="_blank" href="https://github.com/AlphaNodes/redmine_messenger#prepare-your-messenger-service">Incoming WebHook</a> URL from the messenger service. Leave it empty, if you only want to activate specific projects with project based settings'

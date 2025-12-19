@@ -1,16 +1,10 @@
 # German strings
 de:
   default_mentionsl_info: Benutzer, die immer mit Mentions benachrichtet werden sollen. Mehrere Namen können mit Komma getrennt angegeben werden (z.B. @all, @here).
-  label_messenger_contact_created: "%{project_url} - Kontakt %{url} erstellt von *%{user}*"
-  label_messenger_contact_updated: "%{project_url} - Kontakt %{url} aktualisiert von *%{user}*"
-  label_messenger_db_entry_created: "%{project_url} - DB Eintrag %{url} erstellt von *%{user}*"
-  label_messenger_db_entry_updated: "%{project_url} - DB Eintrag %{url} aktualisiert von *%{user}*"
   label_messenger_default_not_visible: Standardeinstellung wird aus Sicherheitsgründen nicht angezeigt
   label_messenger_issue_created: "%{project_url} - Ticket %{url} erstellt von *%{user}*"
   label_messenger_issue_updated: "%{project_url} - Ticket %{url} aktualisiert von *%{user}*"
   label_messenger_outgoing_webhook: Ausgehender Webhook
-  label_messenger_password_created: "%{project_url} - Passwort %{url} erstellt von *%{user}*"
-  label_messenger_password_updated: "%{project_url} - Passwort %{url} aktualisiert von *%{user}*"
   label_messenger_project_text_field_info: Leer lassen für Systemstandard.
   label_messenger_setting: Messenger Einstellung
   label_messenger_settings_disabled: Deaktiviert
@@ -34,10 +28,7 @@ de:
   label_settings_post_wiki: Neue Wikis?
   label_settings_updated_include_description: Ticket Beschreibungsupdates?
   messenger_channel_info_html: 'Hier wird der Channel dem die Nachrichten gesendet werden sollen. Es können mehrere Channel angegeben werden, indem Sie mit Komma getrennt werden.'
-  messenger_contacts_intro: Legen Sie fest welche Einträge oder Änderungen für Kontakte im angegebenen Messenger Channel versendet werden.
-  messenger_db_intro: Legen Sie fest welche Einträge oder Änderungen für DB-Einträge im angegebenen Messenger Channel versendet werden.
   messenger_issue_intro: Legen Sie fest welche Einträge oder Änderungen für Tickets im angegebenen Messenger Channel versendet werden.
-  messenger_passwords_intro: Legen Sie fest welche Einträge oder Änderungen für Passwörter im angegebenen Messenger Channel versendet werden.
   messenger_settings_intro: Ist die Messenger URL im Adminbereich leer werden keine Nachrichten von Redmine an den Messenger verschickt. Egal welche Angaben sonst hier durchgeführt werden. Ist der globale Versand von Nachrichten für alle Projekte gewünscht, trägt man hier die URL ein. Für alle Projekte werden dann in den entsprechenden Channel Nachrichten versendet. Will man jedoch nur für bestimmte Projekte etwas schicken lässt man die URL hier leer. Die entsprechenden Einstellungen müssen dann in den jeweiligen Projekten in der Projektkonfiguration durchgeführt werden.
   messenger_settings_project_intro: Wurde die Messenger URL im Administrationsbereich leer gelassen weil man Änderungen nur für bestimmte Projekte an den Messenger schicken will, trägt man in der jeweiligen Projektkonfiguration die Messenger URL ein.
   messenger_url_info_html: 'Generiere eine <a target="_blank" href="https://github.com/AlphaNodes/redmine_messenger#prepare-your-messenger-service">Incoming WebHook</a> URL vom Messenger Service. Um nur aus bestimmten Projekten Nachrichten zu versenden, kann diese URL leer bleiben und in den Projekteinstellungen gesetzt werden.'
