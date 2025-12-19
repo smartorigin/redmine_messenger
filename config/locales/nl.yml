@@ -28,14 +28,6 @@ nl:
   label_settings_messenger_verify_ssl: Verifieer SSL
   label_settings_messenger_direct_users_messages: Stuur directe berichten
   label_settings_new_include_description: Nieuwe issue beschrijving?
-  label_settings_post_contact_updates: Contact bijwerkingen?
-  label_settings_post_contact: Contact aangemaakt?
-  label_settings_post_db_updates: DB entry bijwerkingen?
-  label_settings_post_db: DB entry toegevoegd?
-  label_settings_post_password_updates: Wachtwoord bijwerkingen?
-  label_settings_post_password: Wachtwoord toegevoegd?
-  label_settings_post_private_contacts: Private contacten?
-  label_settings_post_private_db: Private DB entries?
   label_settings_post_private_issues: Private issue bijwerkingen?
   label_settings_post_private_notes: Private notes bijwerkingen?
   label_settings_post_updates: Issue bijwerkingen?

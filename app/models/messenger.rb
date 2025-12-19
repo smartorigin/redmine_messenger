@@ -165,24 +165,6 @@ class Messenger
         key = 'attachment'
         title = I18n.t :label_attachment
         value = detail.value.to_s
-      elsif detail.property == 'attr' &&
-            detail.prop_key == 'db_relation'
-        return { short: true } unless setting_for_project prj, :post_db
-
-        title = I18n.t :field_db_relation
-        if detail.value.present?
-          entry = DbEntry.visible.find_by id: detail.value
-          value = entry.present? ? entry.name : detail.value.to_s
-        end
-      elsif detail.property == 'attr' &&
-            detail.prop_key == 'password_relation'
-        return { short: true } unless setting_for_project prj, :post_password
-
-        title = I18n.t :field_password_relation
-        if detail.value.present?
-          entry = Password.visible.find_by id: detail.value
-          value = entry.present? ? entry.name : detail.value.to_s
-        end
       else
         key = detail.prop_key.to_s.sub '_id', ''
         title = case key

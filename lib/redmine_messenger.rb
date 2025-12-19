@@ -2,8 +2,6 @@
 
 module RedmineMessenger
   VERSION = '1.0.15'
-  REDMINE_CONTACTS_SUPPORT = Redmine::Plugin.installed? 'redmine_contacts'
-  REDMINE_DB_SUPPORT = Redmine::Plugin.installed? 'redmine_db'
 
   include RedminePluginKit::PluginBase
 
@@ -15,10 +13,6 @@ module RedmineMessenger
       loader.add_patch %w[Issue
                           Project
                           WikiPage]
-
-      loader.add_patch 'Contact' if RedmineMessenger::REDMINE_CONTACTS_SUPPORT
-      loader.add_patch 'DbEntry' if RedmineMessenger::REDMINE_DB_SUPPORT
-      loader.add_patch 'Password' if Redmine::Plugin.installed? 'redmine_passwords'
 
       # Helper
       loader.add_helper [{ controller: 'Projects', helper: 'MessengerProjects' }]

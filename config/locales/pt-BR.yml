@@ -28,14 +28,6 @@ pt-BR:
   label_settings_messenger_verify_ssl: Verificar SSL
   label_settings_messenger_direct_users_messages: Enviar mensagens diretas
   label_settings_new_include_description: Descrição de novas tarefas?
-  label_settings_post_contact_updates: Edições de contato?
-  label_settings_post_contact: Contato adicionado?
-  label_settings_post_db_updates: Modificações de entrada BD?
-  label_settings_post_db: Nova entrada no BD?
-  label_settings_post_password_updates: Modificações de senha?
-  label_settings_post_password: Nova senha?
-  label_settings_post_private_contacts: Contatos privados?
-  label_settings_post_private_db: Entradas privadas BD?
   label_settings_post_private_issues: Modificações em tarefas privadas?
   label_settings_post_private_notes: Modificações em notas privadas?
   label_settings_post_updates: Atualizações de tarefa?

@@ -12,15 +12,7 @@ display_watchers: 0
 post_updates: 1
 new_include_description: 1
 updated_include_description: 1
-post_private_contacts: 0
-post_private_db: 0
 post_private_issues: 0
 post_private_notes: 0
 post_wiki: 0
 post_wiki_updates: 0
-post_db: 0
-post_db_updates: 0
-post_contact: 0
-post_contact_updates: 0
-post_password: 0
-post_password_updates: 0

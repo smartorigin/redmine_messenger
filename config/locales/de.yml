@@ -27,14 +27,6 @@ de:
   label_settings_messenger_username: Messenger Benutzer
   label_settings_messenger_verify_ssl: SSL verifiziert
   label_settings_new_include_description: Neue Ticketeschreibung?
-  label_settings_post_contact_updates: Kontakt Updates?
-  label_settings_post_contact: Neue Kontakte?
-  label_settings_post_db_updates: DB Einträge Updates?
-  label_settings_post_db: Neue DB Einträge?
-  label_settings_post_password_updates: Passwort Updates?
-  label_settings_post_password: Neue Passwörter?
-  label_settings_post_private_contacts: Private Kontakte?
-  label_settings_post_private_db: Private DB Einträge?
   label_settings_post_private_issues: Private Ticket Updates?
   label_settings_post_private_notes: Private Notizen?
   label_settings_post_updates: Ticket Updates?

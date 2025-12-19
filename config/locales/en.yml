@@ -28,14 +28,6 @@ en:
   label_settings_messenger_verify_ssl: Verify SSL
   label_settings_messenger_direct_users_messages: Send direct messages
   label_settings_new_include_description: New issue description?
-  label_settings_post_contact_updates: Contact updates?
-  label_settings_post_contact: Contact added?
-  label_settings_post_db_updates: DB entry updates?
-  label_settings_post_db: DB entry added?
-  label_settings_post_password_updates: Password updates?
-  label_settings_post_password: Password added?
-  label_settings_post_private_contacts: Private contacts?
-  label_settings_post_private_db: Private DB entries?
   label_settings_post_private_issues: Private issue updates?
   label_settings_post_private_notes: Private notes updates?
   label_settings_post_updates: Issue updates?

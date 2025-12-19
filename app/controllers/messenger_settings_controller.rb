@@ -36,14 +36,6 @@ class MessengerSettingsController < ApplicationController
                                     :post_private_issues,
                                     :post_private_notes,
                                     :post_wiki,
-                                    :post_wiki_updates,
-                                    :post_db,
-                                    :post_db_updates,
-                                    :post_private_db,
-                                    :post_contact,
-                                    :post_contact_updates,
-                                    :post_private_contacts,
-                                    :post_password,
-                                    :post_password_updates
+                                    :post_wiki_updates
   end
 end

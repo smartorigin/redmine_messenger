@@ -27,14 +27,6 @@ ko:
   label_settings_messenger_username: 메신저 사용자 이름
   label_settings_messenger_verify_ssl: SSL
   label_settings_new_include_description: 새로운 이슈의 설명을 포함
-  label_settings_post_contact_updates: 연락처 수정
-  label_settings_post_contact: 연락처 추가
-  label_settings_post_db_updates: 데이터베이스 항목 수정
-  label_settings_post_db: 데이터베이스 항목 추가
-  label_settings_post_password_updates: 암호 수정
-  label_settings_post_password: 암호 추가
-  label_settings_post_private_contacts: 비공개 연락처를 포함
-  label_settings_post_private_db: 비공개 데이터베이스 항목을 포함
   label_settings_post_private_issues: 비공개 일감을 포함
   label_settings_post_private_notes: 비공개 노트를 포함
   label_settings_post_updates: 일감 수정

@@ -48,30 +48,4 @@
     = render 'messenger_settings/messenger_select', f: f, mf: :post_wiki
     = render 'messenger_settings/messenger_select', f: f, mf: :post_wiki_updates
 
-  - if RedmineMessenger::REDMINE_DB_SUPPORT && User.current.allowed_to?(:view_db_entries, @project)
-    fieldset#messenger_settings.box.tabular
-      legend = l :field_db_entries
-      .info = t :messenger_db_intro
-      br
-      = render 'messenger_settings/messenger_select', f: f, mf: :post_db
-      = render 'messenger_settings/messenger_select', f: f, mf: :post_db_updates
-      = render 'messenger_settings/messenger_select', f: f, mf: :post_private_db
-
-  - if RedmineMessenger::REDMINE_CONTACTS_SUPPORT && User.current.allowed_to?(:view_contacts, @project)
-    fieldset#messenger_settings.box.tabular
-      legend = l :label_contact_plural
-      .info = t :messenger_contacts_intro
-      br
-      = render 'messenger_settings/messenger_select', f: f, mf: :post_contact
-      = render 'messenger_settings/messenger_select', f: f, mf: :post_contact_updates
-      = render 'messenger_settings/messenger_select', f: f, mf: :post_private_contacts
-
-  - if Redmine::Plugin.installed?('redmine_passwords') && User.current.allowed_to?(:view_passwords, @project)
-    fieldset#messenger_settings.box.tabular
-      legend = l :label_password_plural
-      .info = t :messenger_passwords_intro
-      br
-      = render 'messenger_settings/messenger_select', f: f, mf: :post_password
-      = render 'messenger_settings/messenger_select', f: f, mf: :post_password_updates
-
   = submit_tag l(:button_save)

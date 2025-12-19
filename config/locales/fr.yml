@@ -27,14 +27,6 @@ fr:
   label_settings_messenger_username: Nom du robot
   label_settings_messenger_verify_ssl: Vérifier SSL
   label_settings_new_include_description: Inclure la description des nouveaux tickets
-  label_settings_post_contact_updates: Mises à jour de contact ?
-  label_settings_post_contact: Contact ajouté ?
-  label_settings_post_db_updates: Mises à jour des entrées de base de données ?
-  label_settings_post_db: Entrée de base de données ajoutée ?
-  label_settings_post_password_updates: Mises à jour du mot de passe ?
-  label_settings_post_password: Mot de passe ajouté ?
-  label_settings_post_private_contacts: Contacts privés ?
-  label_settings_post_private_db: Entrées de base de données privées ?
   label_settings_post_private_issues: Inclure les mises à jour des tickets privés
   label_settings_post_private_notes: Inclure les mises à jour des notes privées
   label_settings_post_updates: Inclure toutes les mises à jour
