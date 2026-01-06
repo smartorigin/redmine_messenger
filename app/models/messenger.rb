@@ -18,6 +18,7 @@ class Messenger
       text.gsub! '&', '&amp;'
       text.gsub! '<', '&lt;'
       text.gsub! '>', '&gt;'
+      text.gsub! '|', '&vert;'
 
       text
     end
