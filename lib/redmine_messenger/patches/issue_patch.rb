@@ -52,7 +52,7 @@ module RedmineMessenger
                                        short: true }
             end
 
-            if RedmineMessenger.setting?(:display_watchers) && watcher_users.any?
+            if Messenger.setting_for_project(project, :display_watchers) && watcher_users.any?
               attachment[:fields] << {
                 title: I18n.t(:field_watcher),
                 value: Messenger.markup_format(watcher_users.join(', ')),
