@@ -1,5 +1,7 @@
 # Messenger plugin for Redmine
 
+This is a fork of https://github.com/alphanodes/redmine_messenger by Smart/Origin.
+
 This plugin posts updates to issues in your Redmine installation to [Slack](https://slack.com/), [Rocket.Chat](https://rocket.chat/), [Discord](https://discordapp.com/) or [Mattermost](https://about.mattermost.com/) channel.
 
 [![Rate at redmine.org](https://img.shields.io/badge/rate%20at-redmine.org-blue.svg?style=fla)](https://www.redmine.org/plugins/redmine_messenger) [![Run Linters](https://github.com/AlphaNodes/redmine_messenger/workflows/Run%20Linters/badge.svg)](https://github.com/AlphaNodes/redmine_messenger/actions?query=workflow%3A%22Run+Linters%22) [![Tests](https://github.com/AlphaNodes/redmine_messenger/actions/workflows/tests.yml/badge.svg)](https://github.com/AlphaNodes/redmine_messenger/actions/workflows/tests.yml)
@@ -12,9 +14,6 @@ This plugin posts updates to issues in your Redmine installation to [Slack](http
   * display watchers
   * convert username to mentions
   * post wiki updates
-  * post db entry (if redmine_db is installed) updates
-  * post password (if redmine_passwords is installed) updates
-  * post contact (if redmine_contacts is installed) updates
 * Post information directly to users to be notified (users names should be the same in Redmine and chat). Tested with Rocket.Chat
 * overwrite messenger settings at project level
 * parent project support (inherit messenger settings from parent project)
@@ -128,6 +127,7 @@ You should have received a copy of the GNU General Public License along with thi
 
 The source code is forked from
 
+* [redmine_messenger by Alphanodes](https://github.com/alphanodes/redmine_messenger)
 * [redmine_rocketchat](https://github.com/phlegx/redmine_rocketchat)
 * [redmine_mattermost](https://github.com/altsol/redmine_mattermost)
 * [redmine-slack](https://github.com/sciyoshi/redmine-slack)

@@ -1,6 +1,32 @@
 Changelog
 =========
 
+1.1.0
+------
+
+- First version of the Smart/Origin fork
+- Redmine >= 5.0 is required.
+- BREAKING:
+    - Removed all Alphanodes' closed sources modules related code:
+        - DB module
+        - Contacts module
+        - Passwords module
+    - Add migration 005 to remove Alphanodes' closed sources modules related columns
+    - Add migration 006 to add a new setting to control whether to notify updates on reopened issues only
+- MINOR changes:
+    - Fix markdown formatter to HTML-escape pipes, since they can break links in mattermost/slack
+    - Fix uninitialized array in mentions parsing, that was causing a silent error without reading mentions
+    - Fix the fetch operation for the `display_watchers` setting, that was not taking into account project-level overrides
+    - Fix setting templates for checkboxes by adding an hidden field that stores false values (and not only true ones)
+      in DB. This fixes the case where the user overrides a true-by-default setting in the UI.
+    - Simplify checkboxes in HTML templates with new slim partial
+    - Add a new `post_updates_reopened` setting (false by default) to control whether to notify updates on reopened issues only.
+      This option is only relevant when the `post_updates` option is set to true (it is by default).
+      If `post_updates_reopened` is true, updates will only be notified if the issue status changed from a closed state to an
+      opened state. Otherwise, if false, all issues updates will be notified.
+- TEMPORARY fixes:
+    - Removed GH actions CI for now
+
 1.0.15
 ------
 
