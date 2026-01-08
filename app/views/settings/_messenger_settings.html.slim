@@ -17,18 +17,13 @@ fieldset#messenger_settings.box.tabular
   p
     label = l :label_settings_messenger_username
     = text_field_tag 'settings[messenger_username]', @settings[:messenger_username], size: 30
-  p
-    label = l :label_settings_messenger_verify_ssl
-    = check_box_tag 'settings[messenger_verify_ssl]', 1, @settings[:messenger_verify_ssl].to_i == 1
-    em.info = t :messenger_verify_ssl_info_html
+  = render 'messenger_settings/messenger_checkbox', mf: 'messenger_verify_ssl', settings: @settings, info: t(:messenger_verify_ssl_info_html)
 
 fieldset#messenger_settings.box.tabular
   legend = l :label_issue_plural
   .info = t :messenger_issue_intro
   br
-  p
-    label = l :label_settings_auto_mentions
-    = check_box_tag 'settings[auto_mentions]', 1, @settings[:auto_mentions].to_i == 1
+  = render 'messenger_settings/messenger_checkbox', mf: 'auto_mentions', settings: @settings
   p
     label = l :label_settings_default_mentions
     = text_field_tag 'settings[default_mentions]', @settings[:default_mentions], size: 30
@@ -61,9 +56,5 @@ fieldset#messenger_settings.box.tabular
   legend = l :label_wiki
   .info = t :messenger_wiki_intro
   br
-  p
-    label = l :label_settings_post_wiki
-    = check_box_tag 'settings[post_wiki]', 1, @settings[:post_wiki].to_i == 1
-  p
-    label = l :label_settings_post_wiki_updates
-    = check_box_tag 'settings[post_wiki_updates]', 1, @settings[:post_wiki_updates].to_i == 1
+  = render 'messenger_settings/messenger_checkbox', mf: 'post_wiki', settings: @settings
+  = render 'messenger_settings/messenger_checkbox', mf: 'post_wiki_updates', settings: @settings
