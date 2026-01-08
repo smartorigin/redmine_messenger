@@ -31,6 +31,7 @@ class MessengerSettingsController < ApplicationController
                                     :default_mentions,
                                     :display_watchers,
                                     :post_updates,
+                                    :post_updates_reopened,
                                     :new_include_description,
                                     :updated_include_description,
                                     :post_private_issues,

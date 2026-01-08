@@ -10,6 +10,7 @@ auto_mentions: 0
 default_mentions: ''
 display_watchers: 0
 post_updates: 1
+post_updates_reopened: 0
 new_include_description: 1
 updated_include_description: 1
 post_private_issues: 0

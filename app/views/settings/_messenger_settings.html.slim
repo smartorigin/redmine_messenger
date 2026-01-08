@@ -28,29 +28,14 @@ fieldset#messenger_settings.box.tabular
     label = l :label_settings_default_mentions
     = text_field_tag 'settings[default_mentions]', @settings[:default_mentions], size: 30
     em.info = t :default_mentionsl_info
-  p
-    label = l :label_settings_display_watchers
-    = check_box_tag 'settings[display_watchers]', 1, @settings[:display_watchers].to_i == 1
-  p
-    label = l :label_settings_post_updates
-    = check_box_tag 'settings[post_updates]', 1, @settings[:post_updates].to_i == 1
-  p
-    label = l :label_settings_new_include_description
-    = check_box_tag 'settings[new_include_description]', 1, @settings[:new_include_description].to_i == 1
-  p
-    label = l :label_settings_updated_include_description
-    = check_box_tag 'settings[updated_include_description]', 1, @settings[:updated_include_description].to_i == 1
-  p
-    label = l :label_settings_post_private_issues
-    = check_box_tag 'settings[post_private_issues]', 1, @settings[:post_private_issues].to_i == 1
-  p
-    label = l :label_settings_post_private_notes
-    = check_box_tag 'settings[post_private_notes]', 1, @settings[:post_private_notes].to_i == 1
-
-  p
-    label = l :label_settings_messenger_direct_users_messages
-    = check_box_tag 'settings[messenger_direct_users_messages]', 1, @settings[:messenger_direct_users_messages].to_i == 1
-    em.info = t :messenger_direct_users_messages_info_html
+  = render 'messenger_settings/messenger_checkbox', mf: 'display_watchers', settings: @settings
+  = render 'messenger_settings/messenger_checkbox', mf: 'post_updates', settings: @settings
+  = render 'messenger_settings/messenger_checkbox', mf: 'post_updates_reopened', settings: @settings
+  = render 'messenger_settings/messenger_checkbox', mf: 'new_include_description', settings: @settings
+  = render 'messenger_settings/messenger_checkbox', mf: 'updated_include_description', settings: @settings
+  = render 'messenger_settings/messenger_checkbox', mf: 'post_private_issues', settings: @settings
+  = render 'messenger_settings/messenger_checkbox', mf: 'post_private_notes', settings: @settings
+  = render 'messenger_settings/messenger_checkbox', mf: 'messenger_direct_users_messages', settings: @settings, info: t(:messenger_direct_users_messages_info_html)
 
 fieldset#messenger_settings.box.tabular
   legend = l :label_wiki

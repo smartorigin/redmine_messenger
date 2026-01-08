@@ -25,6 +25,7 @@ pt-BR:
   label_settings_post_private_issues: Modificações em tarefas privadas?
   label_settings_post_private_notes: Modificações em notas privadas?
   label_settings_post_updates: Atualizações de tarefa?
+  label_settings_post_updates_reopened: Incluir atualizações apenas para tickets reabertos
   label_settings_post_wiki_updates: Atualizações de Wiki?
   label_settings_post_wiki: Novo post no Wiki?
   label_settings_updated_include_description: Descrição em atualização de tarefa?

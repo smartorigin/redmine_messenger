@@ -24,6 +24,7 @@ de:
   label_settings_post_private_issues: Private Ticket Updates?
   label_settings_post_private_notes: Private Notizen?
   label_settings_post_updates: Ticket Updates?
+  label_settings_post_updates_reopened: Nur Aktualisierungen für wiedergeöffnete Tickets einbeziehen
   label_settings_post_wiki_updates: Wiki Updates?
   label_settings_post_wiki: Neue Wikis?
   label_settings_updated_include_description: Ticket Beschreibungsupdates?

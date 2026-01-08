@@ -24,6 +24,7 @@ ko:
   label_settings_post_private_issues: 비공개 일감을 포함
   label_settings_post_private_notes: 비공개 노트를 포함
   label_settings_post_updates: 일감 수정
+  label_settings_post_updates_reopened: 재개된 티켓에 대한 업데이트만 포함
   label_settings_post_wiki_updates: 위키 수정
   label_settings_post_wiki: 위키 추가
   label_settings_updated_include_description: 수정된 일감의 설명을 포함

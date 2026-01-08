@@ -25,6 +25,7 @@ nl:
   label_settings_post_private_issues: Private issue bijwerkingen?
   label_settings_post_private_notes: Private notes bijwerkingen?
   label_settings_post_updates: Issue bijwerkingen?
+  label_settings_post_updates_reopened: Alleen updates voor heropende tickets opnemen
   label_settings_post_wiki_updates: Wiki bijwerkingen?
   label_settings_post_wiki: Wiki toegevoegd?
   label_settings_updated_include_description: Beschrijving in bijwerking issue?
