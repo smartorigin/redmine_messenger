@@ -17,7 +17,8 @@ fieldset#messenger_settings.box.tabular
   p
     label = l :label_settings_messenger_username
     = text_field_tag 'settings[messenger_username]', @settings[:messenger_username], size: 30
-  = render 'messenger_settings/messenger_checkbox', mf: 'messenger_verify_ssl', settings: @settings, info: t(:messenger_verify_ssl_info_html)
+  = render 'messenger_settings/messenger_checkbox', mf: 'messenger_verify_ssl',
+    settings: @settings, info: t(:messenger_verify_ssl_info_html)
 
 fieldset#messenger_settings.box.tabular
   legend = l :label_issue_plural
@@ -35,7 +36,8 @@ fieldset#messenger_settings.box.tabular
   = render 'messenger_settings/messenger_checkbox', mf: 'updated_include_description', settings: @settings
   = render 'messenger_settings/messenger_checkbox', mf: 'post_private_issues', settings: @settings
   = render 'messenger_settings/messenger_checkbox', mf: 'post_private_notes', settings: @settings
-  = render 'messenger_settings/messenger_checkbox', mf: 'messenger_direct_users_messages', settings: @settings, info: t(:messenger_direct_users_messages_info_html)
+  = render 'messenger_settings/messenger_checkbox', mf: 'messenger_direct_users_messages',
+    settings: @settings, info: t(:messenger_direct_users_messages_info_html)
 
 fieldset#messenger_settings.box.tabular
   legend = l :label_wiki

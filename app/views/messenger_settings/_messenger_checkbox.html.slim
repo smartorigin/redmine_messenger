@@ -3,4 +3,4 @@ p
   = hidden_field_tag "settings[#{mf}]", 0
   = check_box_tag "settings[#{mf}]", 1, settings[mf].to_i == 1
   - if defined?(info) && info.present?
-    em.info= info
+    em.info = info
