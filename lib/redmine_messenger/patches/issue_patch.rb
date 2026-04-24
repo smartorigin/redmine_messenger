@@ -92,16 +92,20 @@ module RedmineMessenger
           # Rails.logger.warn "Messenger: journal.user=#{current_journal.user&.id}-#{current_journal.user&.login}"
           # Rails.logger.warn "Messenger: notes=#{current_journal.notes.inspect}"
           # Rails.logger.warn "Messenger: details=#{current_journal.details.map { |d| d.attributes }.inspect}"
-          if Messenger.setting_for_project(project, :post_updates_reopened)
+          if Messenger.setting_for_project project, :post_updates_reopened
             status_change = current_journal.details.find { |d| d.prop_key == 'status_id' }
             return unless status_change
+
             old_status_id = status_change.old_value.to_i
             new_status_id = status_change.value.to_i
-            old_status = IssueStatus.find_by(id: old_status_id)
-            new_status = IssueStatus.find_by(id: new_status_id)
+            old_status = IssueStatus.find_by id: old_status_id
+            new_status = IssueStatus.find_by id: new_status_id
             old_closed = old_status&.is_closed
             new_closed = new_status&.is_closed
-            # Rails.logger.warn "Status changed! old_id=#{old_status_id}, new_id=#{new_status_id}, old_status=#{old_status}, new_status=#{new_status}, old_closed=#{old_closed}, new_closed=#{new_closed}"
+            # Rails.logger.warn "Status changed!"
+            # Rails.logger.warn "old_id=#{old_status_id}, new_id=#{new_status_id}"
+            # Rails.logger.warn "old_status=#{old_status}, new_status=#{new_status}"
+            # Rails.logger.warn "old_closed=#{old_closed}, new_closed=#{new_closed}"
             return if !old_closed || new_closed
           end
 

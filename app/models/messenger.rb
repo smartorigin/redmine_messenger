@@ -149,7 +149,7 @@ class Messenger
       text.present? ? markup_format(text) : nil
     end
 
-    def detail_to_field(detail, prj = nil)
+    def detail_to_field(detail)
       field_format = nil
       key = nil
       escape = true
@@ -237,11 +237,11 @@ class Messenger
     end
 
     def mentions(project, text)
-      defaults = textfield_for_project(project, :default_mentions)
+      defaults = textfield_for_project project, :default_mentions
       names = defaults ? defaults.split(',').map(&:strip) : []
-      names.concat(extract_usernames(text)) if text.present?
+      names.concat extract_usernames(text) if text.present?
       names.uniq!
-      names.any? ? " To: #{names.join(', ')}" : nil
+      names.any? ? " To: #{names.join ', '}" : nil
     end
 
     private
