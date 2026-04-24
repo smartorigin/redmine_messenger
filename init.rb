@@ -4,9 +4,9 @@ loader = RedminePluginKit::Loader.new plugin_id: 'redmine_messenger'
 
 Redmine::Plugin.register :redmine_messenger do
   name 'Messenger'
-  author 'AlphaNodes GmbH'
-  url 'https://github.com/alphanodes/redmine_messenger'
-  author_url 'https://alphanodes.com/'
+  author 'Smart/Origin'
+  url 'https://github.com/smartorigin/redmine_messenger'
+  author_url 'https://smart-origin.com/'
   description 'Messenger integration for Slack, Discord, Rocketchat and Mattermost support'
   version RedmineMessenger::VERSION
 

@@ -132,4 +132,5 @@ The source code is forked from
 * [redmine_mattermost](https://github.com/altsol/redmine_mattermost)
 * [redmine-slack](https://github.com/sciyoshi/redmine-slack)
 
-Special thanks to the original author and contributors for making this awesome hook for Redmine. This fork is just refactored to use Messenger-namespaced configuration options in order to use all hooks for Rocket.Chat, Mattermost AND Slack in a Redmine installation.
+Special thanks to the original authors and contributors for making this awesome hook for Redmine. This fork is just refactored from alphanodes'
+plugin to maintain compatibility with newer Redmine version and to remove proprietary extensions (see [CHANGELOG](CHANGELOG.md) for version 1.1.0).
