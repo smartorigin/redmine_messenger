@@ -27,7 +27,6 @@ pipeline {
         }
 
         // --- TEST MATRIX ---
-
         stage('Tests') {
             matrix {
                 axes {

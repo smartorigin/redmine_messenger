@@ -4,8 +4,6 @@ This is a fork of https://github.com/alphanodes/redmine_messenger by Smart/Origi
 
 This plugin posts updates to issues in your Redmine installation to [Slack](https://slack.com/), [Rocket.Chat](https://rocket.chat/), [Discord](https://discordapp.com/) or [Mattermost](https://about.mattermost.com/) channel.
 
-[![Rate at redmine.org](https://img.shields.io/badge/rate%20at-redmine.org-blue.svg?style=fla)](https://www.redmine.org/plugins/redmine_messenger) [![Run Linters](https://github.com/AlphaNodes/redmine_messenger/workflows/Run%20Linters/badge.svg)](https://github.com/AlphaNodes/redmine_messenger/actions?query=workflow%3A%22Run+Linters%22) [![Tests](https://github.com/AlphaNodes/redmine_messenger/actions/workflows/tests.yml/badge.svg)](https://github.com/AlphaNodes/redmine_messenger/actions/workflows/tests.yml)
-
 ## Features
 
 * Post information to messenger channel
