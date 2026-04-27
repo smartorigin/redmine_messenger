@@ -7,21 +7,24 @@ pipeline {
 
     stages {
         // --- LINTING ---
-        // stage('Linting') {
-        //     steps {
-        //         script {
-        //             sh """
-        //                 podman run --rm -v \$(pwd):/app -w /app ruby:3.4 bash -c "
-        //                     touch .enable_dev &&
-        //                     sed -i '3isource \\"https://rubygems.org\\"' Gemfile &&
-        //                     bundle install --jobs 4 --retry 3 &&
-        //                     bundle exec rubocop -S &&
-        //                     bundle exec slim-lint app/views
-        //                 "
-        //             """
-        //         }
-        //     }
-        // }
+        stage('Linting') {
+            steps {
+                script {
+                    sh """
+                        podman run --rm -v \$(pwd):/app -w /app ruby:3.4 bash -c "
+                            set -xe
+                            touch .enable_dev
+                            sed -i \\"3isource 'https://rubygems.org'\\" Gemfile
+                            bundle install --jobs 4 --retry 3
+                            bundle exec rubocop -S
+                            bundle exec slim-lint app/views
+                            rm .enable_dev
+                            sed -i \\"3d\\" Gemfile
+                        "
+                    """
+                }
+            }
+        }
 
         // --- TEST MATRIX ---
 
