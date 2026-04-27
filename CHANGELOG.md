@@ -1,6 +1,14 @@
 Changelog
 =========
 
+1.1.1
+------
+
+- Add Jenkins compatible CI (runs on a private instance)
+- Fix rubocop and slim linting issues
+- Update License, Readme, and init.rb with S/O fork information
+- Remove useless linting file
+
 1.1.0
 ------
 
